@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RAG判定テスト</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>RAG判定デモ（CSV + JDG）</h1>
+    <section class="inputs">
+      <div class="file-group">
+        <label>対応表CSV：</label>
+        <input type="file" id="mappingCsv">
+      </div>
+      <div class="file-group">
+        <label>AIアドバイス結果CSV：</label>
+        <input type="file" id="adviceCsv">
+      </div>
+      <div class="file-group">
+        <label>閾値CSV：</label>
+        <input type="file" id="thresholdCsv">
+      </div>
+      <div class="file-group">
+        <label>テストデータJDG：</label>
+        <input type="file" id="jdgFile">
+      </div>
+      <button id="runBtn" class="btn-apple">判定を実行</button>
+    </section>
+
+    <section id="warnings" class="panel hidden"></section>
+    <section id="summary" class="panel hidden"></section>
+    <section id="details" class="panel hidden"></section>
+  </main>
+
+  <script src="app.js"></script>
+  </body>
+  </html>
+
+
