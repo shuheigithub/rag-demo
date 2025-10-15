@@ -1,0 +1,753 @@
+<?xml version="1.0"?>
+<JudgementSummary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelName>AIGIA_スタジオ用</modelName>
+  <skillmodel>AIGIA_スタジオ用_right_halfswing.mdl</skillmodel>
+  <coach>default_halfswing_right.kar</coach>
+  <totalPhaseJudgeNum>0</totalPhaseJudgeNum>
+  <phaseJudgeArray>
+    <PhaseJudgement>
+      <phasename>address</phasename>
+      <framenum>18</framenum>
+      <JudgeArray>
+        <JudgementPart>
+          <judgeName>前傾角度</judgeName>
+          <commnent />
+          <metrics>26.749153510306279</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>背骨の傾き</judgeName>
+          <commnent />
+          <metrics>2.5740690323545818</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>首元の動き</judgeName>
+          <commnent />
+          <metrics>0</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>右腰の動き</judgeName>
+          <commnent />
+          <metrics>1.6305766448795422</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>左腰の動き</judgeName>
+          <commnent />
+          <metrics>0.680358958079392</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>重心の動き_正面</judgeName>
+          <commnent />
+          <metrics>0</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>右膝の角度</judgeName>
+          <commnent />
+          <metrics>16.260987899310976</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand.AngleChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>手元の浮き</judgeName>
+          <commnent />
+          <metrics>0</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>左膝の角度</judgeName>
+          <commnent />
+          <metrics>20.18201313483118</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand.AngleChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>頭の動き</judgeName>
+          <commnent />
+          <metrics>0</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>両肩の傾き_正面</judgeName>
+          <commnent />
+          <metrics>-9.68853279909336</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>重心の動き_後方</judgeName>
+          <commnent />
+          <metrics>0</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>グリップ位置</judgeName>
+          <commnent />
+          <metrics>15.722036921783827</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>手首軌道</judgeName>
+          <commnent />
+          <metrics>-1</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>腰の開き</judgeName>
+          <commnent />
+          <metrics>13.047977193577188</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>肩の開き</judgeName>
+          <commnent />
+          <metrics>-13.539297169724259</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>左腕の角度</judgeName>
+          <commnent />
+          <metrics>5.8317948863267892</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>右腕の角度</judgeName>
+          <commnent />
+          <metrics>8.0990110472126666</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+      </JudgeArray>
+    </PhaseJudgement>
+    <PhaseJudgement>
+      <phasename>halfback</phasename>
+      <framenum>62</framenum>
+      <JudgeArray>
+        <JudgementPart>
+          <judgeName>前傾角度</judgeName>
+          <commnent />
+          <metrics>30.347088511596546</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>背骨の傾き</judgeName>
+          <commnent />
+          <metrics>-0.55139443412850586</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>首元の動き</judgeName>
+          <commnent />
+          <metrics>1.9337977288543289</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>右腰の動き</judgeName>
+          <commnent />
+          <metrics>3.9694409278856932</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>左腰の動き</judgeName>
+          <commnent />
+          <metrics>-0.71446701080395725</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>重心の動き_正面</judgeName>
+          <commnent />
+          <metrics>3.0171196324801004</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>右膝の角度</judgeName>
+          <commnent />
+          <metrics>15.85376381217435</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand.AngleChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>手元の浮き</judgeName>
+          <commnent />
+          <metrics>34.345220388846236</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>左膝の角度</judgeName>
+          <commnent />
+          <metrics>20.351658543058054</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand.AngleChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>頭の動き</judgeName>
+          <commnent />
+          <metrics>-3.1835285078818245</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>両肩の傾き_正面</judgeName>
+          <commnent />
+          <metrics>39.583574977175033</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>重心の動き_後方</judgeName>
+          <commnent />
+          <metrics>2.7149313467038385</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>グリップ位置</judgeName>
+          <commnent />
+          <metrics>28.82430634977732</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>手首軌道</judgeName>
+          <commnent />
+          <metrics>98.085830372387292</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>腰の開き</judgeName>
+          <commnent />
+          <metrics>-22.910513911237096</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>肩の開き</judgeName>
+          <commnent />
+          <metrics>-41.59478078119615</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>左腕の角度</judgeName>
+          <commnent />
+          <metrics>85.74423908869646</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>右腕の角度</judgeName>
+          <commnent />
+          <metrics>-59.644041021238714</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+      </JudgeArray>
+    </PhaseJudgement>
+    <PhaseJudgement>
+      <phasename>impact</phasename>
+      <framenum>84</framenum>
+      <JudgeArray>
+        <JudgementPart>
+          <judgeName>前傾角度</judgeName>
+          <commnent />
+          <metrics>27.335375019698471</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>背骨の傾き</judgeName>
+          <commnent />
+          <metrics>-2.6650001054155368</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>首元の動き</judgeName>
+          <commnent />
+          <metrics>4.3812484925760415</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>右腰の動き</judgeName>
+          <commnent />
+          <metrics>5.5598203542935156</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>左腰の動き</judgeName>
+          <commnent />
+          <metrics>-2.9124585027012073</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>重心の動き_正面</judgeName>
+          <commnent />
+          <metrics>6.9859628837993908</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>右膝の角度</judgeName>
+          <commnent />
+          <metrics>18.07926097697505</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand.AngleChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>手元の浮き</judgeName>
+          <commnent />
+          <metrics>-6.8151599021541731</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>左膝の角度</judgeName>
+          <commnent />
+          <metrics>19.324078434900176</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand.AngleChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>頭の動き</judgeName>
+          <commnent />
+          <metrics>4.0005844778702109</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>両肩の傾き_正面</judgeName>
+          <commnent />
+          <metrics>3.3510732574434305</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>重心の動き_後方</judgeName>
+          <commnent />
+          <metrics>1.5659493617848064</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>グリップ位置</judgeName>
+          <commnent />
+          <metrics>21.775030021998411</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>手首軌道</judgeName>
+          <commnent />
+          <metrics>-146.57217484574369</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>腰の開き</judgeName>
+          <commnent />
+          <metrics>4.4585990688778434</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>肩の開き</judgeName>
+          <commnent />
+          <metrics>-13.059877140313358</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>左腕の角度</judgeName>
+          <commnent />
+          <metrics>14.605418766508578</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>右腕の角度</judgeName>
+          <commnent />
+          <metrics>-0.91580155753320858</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+      </JudgeArray>
+    </PhaseJudgement>
+    <PhaseJudgement>
+      <phasename>halffollow</phasename>
+      <framenum>106</framenum>
+      <JudgeArray>
+        <JudgementPart>
+          <judgeName>前傾角度</judgeName>
+          <commnent />
+          <metrics>16.965730187531609</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>背骨の傾き</judgeName>
+          <commnent />
+          <metrics>0.33288340869986227</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>首元の動き</judgeName>
+          <commnent />
+          <metrics>2.33104096522243</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>右腰の動き</judgeName>
+          <commnent />
+          <metrics>8.666758393423919</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>左腰の動き</judgeName>
+          <commnent />
+          <metrics>1.1224042538980632</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>重心の動き_正面</judgeName>
+          <commnent />
+          <metrics>3.0735043933685784</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>右膝の角度</judgeName>
+          <commnent />
+          <metrics>38.448380490014117</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand.AngleChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>手元の浮き</judgeName>
+          <commnent />
+          <metrics>44.520070663064075</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>左膝の角度</judgeName>
+          <commnent />
+          <metrics>27.327387129672559</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand.AngleChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>頭の動き</judgeName>
+          <commnent />
+          <metrics>7.4140766279172308</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>両肩の傾き_正面</judgeName>
+          <commnent />
+          <metrics>-54.332710424248262</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>重心の動き_後方</judgeName>
+          <commnent />
+          <metrics>3.3617197202233875</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>グリップ位置</judgeName>
+          <commnent />
+          <metrics>36.815008437171457</metrics>
+          <unit>cm</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DPositionChecker</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>手首軌道</judgeName>
+          <commnent />
+          <metrics>-1</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>腰の開き</judgeName>
+          <commnent />
+          <metrics>81.5985654747438</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>肩の開き</judgeName>
+          <commnent />
+          <metrics>79.962749138964824</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>左腕の角度</judgeName>
+          <commnent />
+          <metrics>-87.468602411838788</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+        <JudgementPart>
+          <judgeName>右腕の角度</judgeName>
+          <commnent />
+          <metrics>87.868450564878543</metrics>
+          <unit>°</unit>
+          <level>NotJudged</level>
+          <criterion>-1</criterion>
+          <others />
+          <className>JudgeCommand._2DAngleCheckerBtTwoLines</className>
+        </JudgementPart>
+      </JudgeArray>
+    </PhaseJudgement>
+  </phaseJudgeArray>
+</JudgementSummary>
